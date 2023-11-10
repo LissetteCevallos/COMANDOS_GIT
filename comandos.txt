@@ -1,0 +1,88 @@
+                                                  UNIVERSIDAD DE LAS FUERZAS ARMADAS 
+                                                                "ESPE"
+
+Nombre:Lissette Cevallos
+NRC: 13930
+FECHA: 09-11-2023
+
+
+¿QUÉ ES GITHUB?
+
+GitHub es una plataforma de desarrollo colaborativo que aloja proyectos en la nube utilizando el sistema de control de versiones llamado Git. Ayuda a los desarrolladores a almacenar y administrar el código llevando un registro de cambios. Generalmente el código es abierto, lo que permite realizar proyectos compartidos y mantener el seguimiento detallado de su progreso. 
+
+
+¿QUÉ ES GIT?
+
+Git es un software de control de versiones diseñado por Linus Torvalds, el creador de Linux.Git proporciona herramientas para un trabajo rápido y eficiente dentro de un equipo. El control de versiones permite a los desarrolladores descargar una copia del código fuente a sus repositorios locales (PC), realizar cambios y subir una versión nueva al repositorio compartido. Todas las modificaciones se guardan en versiones independientes, sin afectar el archivo original. 
+
+
+COMANDOS GIT
+
+1. Git clone 
+
+	Realiza una copia idéntica de la última versión de un proyecto en un repositorio y la guarda en tu ordenador.
+
+2. Git branch
+	
+	Las ramas (branch) son altamente importantes en el mundo de Git.Podemos usar el comando git branch para crearlas, listarlas y eliminarlas.
+		2.1 Crear una nueva rama:
+                      git branch <nombre-de-la-rama>
+		2.2 Visualización de ramas :
+			git branch
+			git branch --list
+		2.3 Borrar una rama:
+			git branch -d <nombre-de-la-rama>
+
+3. Git add
+
+	permite crear, modificar o eliminar un archivo, estos cambios suceden en local y no se incluirán en el siguiente commit (a menos que cambiemos la 	configuración).
+	3.1 Añadir un único archivo:
+		git add <archivo>
+	3.2 Añadir todo de una vez:
+		git add -A
+
+4. Git Checkout
+
+	Además de extraer las confirmaciones y las revisiones de archivos antiguas, git checkout también sirve para navegar por las ramas existentes. 
+	git checkout <nombre-de-la-rama>
+
+5. Git clean
+
+	Elimina los archivos sin seguimiento del directorio de trabajo. 
+
+6. Git commit
+
+	Git commit es como establecer un punto de control en el proceso de desarrollo al cual puedes volver más tarde si es necesario.
+	Git commit guarda tus cambios únicamente en local.
+
+	git commit -m "mensaje de confirmación"
+
+7. Git status
+
+	Muestra el estado del directorio en el que estás trabajando y la instantánea preparada. Lo mejor es que lo ejecutes junto con git add y git commit para ver 	exactamente qué se va a incluir en la próxima instantánea.
+		git status
+8. Git push
+
+	Enviar (push) es lo opuesto a recuperar (fetch), con algunas salvedades. Permite mover una o varias ramas a otro repositorio
+	git push <nombre-remoto> <nombre-de-tu-rama>
+	Git push solamente carga los cambios que han sido confirmados.
+
+9. Git pull
+	Descarga una rama de un repositorio remoto e inmediatamente la fusiona en la rama actual. 
+	git pull <nombre-remoto>
+
+10. Git merge
+	Es una forma eficaz de integrar los cambios de ramas divergentes. Después de bifurcar el historial del proyecto con git branch, git merge permite unirlo de 	nuevo.
+
+11. Git fetch
+	Con este comando, se descarga una rama de otro repositorio junto con todas sus confirmaciones y archivos asociados. Sin embargo, no intenta integrar nada en el 	repositorio local. Esto te permite inspeccionar los cambios antes de fusionarlos en tu proyecto.
+
+12. Git log
+	Permite explorar las revisiones anteriores de un proyecto. Proporciona varias opciones de formato para mostrar las instantáneas confirmadas.
+
+13.Git remote
+	Es un comando útil para administrar conexiones remotas. En lugar de pasar la URL completa a los comandos fetch, pull y push, permite usar un atajo más significativo.
+
+14. Git reset
+	Deshace los cambios en los archivos del directorio de trabajo. El restablecimiento permite limpiar o eliminar por completo los cambios que no se han enviado a un repositorio público.
+
