@@ -1,0 +1,29 @@
+UNIVERSAD DE LAS FUERZAS ARMADAS "ESPE"
+
+NOMBRE:CEVALLOS LISSETTE
+TEMA :DIFERENCIA ENTRE FOR Y FOR EACH EN JAVA 
+
+
+DIFERENCIA:
+
+foreach es util cuando simplemente quieres recorrer los elementos de un array o lista.
+for tiene las siguientes tres partes:
+
+for(inicia valores; comprueba condicion de salida del for; accion)
+
+Inicia valores suele usarse para inicializar los valores iniciales de los indices que vamos a usar para recorrer el array.
+La segunda parte suele comprobar si hemos alcanzado el ultimo indice para  salir del for.
+La ultima parte normalmente se usa para sumar una cantidad al indice.
+
+Ejemplo:
+// recorre indices de 1 a 10 de uno en uno
+for(indice=1; indice<=10; indice++)
+{ accede a la posicion indice del array }
+
+for tiene la ventaja de que es mas flexible y  permite mas variaciones a la hora de iterar que el foreach.
+Por ejemplo podemos iterar solo en las posiciones impares, sumando de dos en dos:
+for(indice=1; indice<=10; indice+=2)
+
+un bucle for es una construcción que dice "realizar esta operación varias veces".
+
+un bucle foreach es una construcción que dice "realice esta operación contra cada valor / objeto en este IEnumerable"
